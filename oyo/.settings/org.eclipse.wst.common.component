@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="oyo-0.0.1-SNAPSHOT">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="mysql-connector-java-8.0.17.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/HP/Desktop/DEPEN/mysql-connector-java-8.0.17.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="protobuf-java-3.6.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/HP/Desktop/DEPEN/protobuf-java-3.6.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="servlet-api.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/HP/Desktop/DEPEN/servlet-api.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="oyo"/>
+        <property name="java-output-path" value="/oyo/build/classes"/>
+    </wb-module>
+</project-modules>
